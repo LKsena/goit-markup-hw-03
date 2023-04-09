@@ -1,0 +1,218 @@
+/* ==========VARIABLES */
+:root {
+    --primary-color: #2E2F42;
+    --main-text-color: #434455;
+    --logo-btn-color: #4D5AE5;
+    --main-inverse-color: #FFFFFF;
+    --secondary-inverse-color: #E7E9FC;
+    --accent-color: #404BBF;
+    --logo-inverse-color: #F4F4FD;
+    --secondary-bg-color: #F4F4FD;
+
+img {
+        display: block;
+    }
+ 
+body {
+        background-color: #FFFFFF;
+        color: var(--main-text-color);   
+        font-family: Roboto, sans-serif;
+
+
+.page-header{
+        width: 1440px;
+        background: cornflower;
+       
+    }
+/*Logo*/
+.logo-link{
+        flex-direction: row;
+        text-align: center;
+        font-weight: 115px;
+        display: flex;
+        flex-direction: row;
+        padding: 0px;
+    }
+
+.logo-span{
+        width: 44px
+        background-color: iris;
+    }
+
+/*Contacts*/
+.menu-link{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px; 
+    letter-spacing: 0.02em;
+    background: #2E2F42;
+}
+
+.list-sddress{
+    position: absolute;
+    width: 154px;
+    height: 24px;
+    left: 940px;
+    top: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    background: #434455;
+}
+
+/*Hero section*/
+.hero-image{
+        color: #FFFFFF;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 60px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        background: #2E2F42;
+        width: 1440px;
+        height: 600px;
+    }
+
+.hero-image-title{
+    background-color: #D9D9D9;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.hero-button{
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+
+}
+
+.features{
+    position: absolute;
+    font-weight: 1128px;
+    line-height: 104px;
+    left: 156px;
+    top: 792px;
+}
+
+.my-descr{
+    width: 264px;
+    height: 72px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+
+}
+
+.subtitle{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    width: 264px;
+    height: 24px;
+    color: #2E2F42;
+
+}
+ 
+.caption{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    position: absolute;
+    width: 323px;
+    height: 40px;
+    left: 559px;
+    top: 1016px;
+    color: #2E2F42;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.title{
+    position: absolute;
+    width: 496px;   
+    height: 120px;    
+    left: 472px;
+    top: 250px    
+    font-size: 56px;    
+    font-weight: 700;    
+    color: #D9D9D9;    
+    text-align: center           
+}
+
+.specialization{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;    
+
+}
+
+.wrapper-user{
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 32px;
+    gap: 32px;
+}
+ 
+.user-name{
+    width: 134px;
+    height: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2E2F42; 
+}
+
+.footer {
+    position: absolute;
+    width: 1440px;
+    height: 312px;
+    left: 0px;
+    top: 2280px;
+    background: #2E2F42;
+}
+.ad{
+    position: absolute;
+    width: 264px;
+    height: 72px;
+    left: 156px;
+    top: 2420px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;  
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+}
+
+
+
