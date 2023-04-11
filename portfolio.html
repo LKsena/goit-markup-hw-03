@@ -5,60 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Raleway:wght@900&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    <link rel="stylesheet" href="./css/styles.css" />
+      rel="stylesheet">
 </head>
 <body>
-<!--Section Header-->
-    <header>
-        <!-- NAVIGATION -->
-        <nav class="nav">
-        <div class="container">
-            <a class="logo-link" href="./index.html"><span>WEB</span>STUDIO</a>               
-        <ul class="nav-list">
-            <li class="menu"><a class="link" href="./studio.html">Studio</a></li>    
-            <li class="menu"><a class="link" href="./portfolio.html">Portfolio</a></li>
-            <li class="menu"><a class="link" href="#">Contacts</a></li> 
-            </ul>
-   <!-- CONTACTS -->
-            <address class="address">
-                <ul class="address-list">
-                    <li class="menu"><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li class="menu"><a class="link" href="tel:+11(000)111-11-11">+11(000)111-11-11</a></li>
-                </ul>
-        </nav>
-            </address> 
-        </div>
-    </header>   
-    <main>
+<!--Header section-->
+<header class="page-header">
+  <a class="logo-link" href="./index.html"><span class="logo-span">WEB</span>STUDIO</a>             
+  <nav class="menu-link">
+      <ul>
+      <li><a class="menu-link" href="./studio.html">Studio</a></li>
+      <li><a class="menu-link" href="./portfolio.html">Portfolio</a></li>
+      <li><a class="menu-link" href="#">Contacts</a></li> 
+      </ul>
+<!--Contactes-->
+<address class="contacts-container">
+    <ul class="list-address">
+      <li><a class="mail-link" href="info@devstudio.com">info@devstudio.com</a></li>
+      <li><a class="tel-link" href="tel:+11(000)111-11-11">+11(000)111-11-11</a></li>
+    </ul>
+</address> 
+</nav>
+</header>
+  <main>
     <section>
         <div class="container">
- <!-- hidden title -->
-        <h1 class="hero-title visually-hidden">Portfolio</h1>
- <!-- hidden title -->
-
-          <!-- filter -->
+<!-- filter -->
           <ul class="filter-list">
             <li class="menu">
-              <button class="button" type="button">All</button>
+              <button class="button-active" type="button">All</button>
             </li>
             <li class="menu">
-              <button class="button" type="button">Web Site</button>
+              <button class="button-web" type="button">Web Site</button>
             </li>
             <li class="menu">
-              <button class="button" type="button">App</button>
+              <button class="button-app" type="button">App</button>
             </li>
             <li class="menu">
-              <button class="button" type="button">Design</button>
+              <button class="button-design" type="button">Design</button>
             </li>
             <li class="menu">
-              <button class="button" type="button">Marketing</button>
+              <button class="btn" type="button">Marketing</button>
             </li>
           </ul>
-          <!-- information -->
+<!-- information -->
+      <div class="exercise" style="align-items:center">
           <ul class="information">
             <li class="menu">
               <a class="link" href="">
@@ -181,14 +175,11 @@
         </div>
       </section>
     </main>
-    <!-- footer -->
-    <footer class="footer container">
-      <a class="logo-link" href=""> <span class="web">web</span>studio </a>
-      <p>
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
-    </footer>
+<!-- Footer -->
+    <footer class="footer">
+      <a class="logo-link" href="./index.html"><span class="logo-span">WEB</span>STUDIO</a>   
+      <p class="ad">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>  
+  </footer>
   </body>
 </html>
 

@@ -16,27 +16,22 @@ body {
         font-family: Roboto, sans-serif;
     }
 
-.page-header {
-        width: 1440px;    
-       
+/*header*/
+.cap{
+    display: flex;
 }
 
-/*header*/
+
 .logo {
     font-family: Raleway;
     font-size: 18px;
+    color: var(--logo-inverse-color);
 
 }
 
-.logo-link {
-    text-align: center;
-    font-weight: 800;
-    color: var(--primary-color);
-   
-}
 .logo-span{
+        font-weight: 800;
         color: var(--accent-color);
-
 }
 
 /*Contacts*/
@@ -61,6 +56,7 @@ img {
     }
     
 
+
 /*Hero section*/
 .hero-image{
         background-color: var(--primary-color);    
@@ -68,17 +64,15 @@ img {
         font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
-        text-align: center;
         letter-spacing: 0.02em;
         
         
     }
 
-.hero-image-title{
+.hero-image-title {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    text-align: center;
     letter-spacing: 0.02em;
 }
 
@@ -88,13 +82,22 @@ img {
 
 }
 
-.subtitle{
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--primary-color);
+.menu{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 12px 24px;
+    background: var(--logo-inverse-color);
+} 
+
+.button-active {
+    background: var(--accent-color);
+    color: var(--main-inverse-color);
+ 
    
 }
+
 
 .my-descr{
     font-size: 16px;
@@ -110,16 +113,10 @@ img {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-   
     color: var(--primary-color);
 
 }
  
-.specialization {
-    
-
-}
-
 .wrapper-user{
     background: var(--main-inverse-color);
     padding: 0px 0px 32px;
@@ -129,15 +126,15 @@ img {
 .user-name {
     font-size: 20px;
     line-height: 1.2;
-    text-align: center;
     letter-spacing: 0.02em;
     color: var(--primary-color); 
 }
 
 .footer {
-  
+    color: var(--logo-inverse-color);
     background: var(--primary-color);
 }
+
 .ad {
     font-size: 16px;
     line-height: 1.5;  
