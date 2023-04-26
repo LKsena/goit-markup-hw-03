@@ -96,10 +96,17 @@ img {
                
     }
 
-.feature-menu {
+.feature-menu{
         display: flex;
         align-items: center;
 }
+
+/*Specialization*/
+.specialization-menu{
+    display: flex;
+    align-items: center;
+}
+
 
 
 .hero-image-title {
@@ -108,6 +115,9 @@ img {
     line-height: 1.07;
     letter-spacing: 0.02em;
 }
+
+
+
 
 .hero-button{
     color: var(--main-inverse-color);
