@@ -189,14 +189,14 @@ body {
 }
 
 .feature-item {
-    width: calc((100% - 72px) / 4); 
-
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 /*   Sectione 3 Our Team  */
 
 .team-box {
     background-color: #F4F4FD; 
+    padding: 120px;
 }
 
 .page-ourteam {
@@ -205,11 +205,23 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px; 
     color: #2e2f42;
 }
 
+.menu-ourteam {
+    display: flex;
+    gap: 24px; 
+}
+
 .ourteam-item {
+    width: calc((100% - 72px) / 4); 
+    border-radius: 0px 0px 4px 4px; 
     background-color: #FFFFFF;
+}
+
+.badge {
+    padding: 32px 0;
 }
 
 .ourteam-item,
@@ -225,8 +237,14 @@ body {
 .text-ourteam {
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em; 
+    letter-spacing: 0.02em;
+    text-align: center;  
     color: #434455;
+}
+
+.teammate {
+    text-align: center; 
+    margin-bottom: 8px;
 }
 
 /*   Sectione 4 Portfolio   */
