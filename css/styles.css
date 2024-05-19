@@ -16,10 +16,6 @@ button {
 
 }
 
-.img {
-    display: block;
-}
-
 /*   Шрифты,фон и стили */
 
 body {
@@ -173,12 +169,28 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px; 
     color: #2e2f42;
 }
 
 .text-feature {
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.feature-box {
+    padding: 120px 0;
+
+}
+
+.menu-feature {
+    display: flex; 
+    gap: 24px; 
+}
+
+.feature-item {
+    width: calc((100% - 72px) / 4); 
+
 }
 
 /*   Sectione 3 Our Team  */
