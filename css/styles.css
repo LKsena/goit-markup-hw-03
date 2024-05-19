@@ -16,6 +16,9 @@ button {
 
 }
 
+.img {
+    display: block;
+}
 
 /*   Шрифты,фон и стили */
 
@@ -68,6 +71,11 @@ body {
     display: flex; 
     align-items: center; 
 
+}
+
+.page-menu {
+    display: flex; 
+    gap: 40px;
 }
 
 .page-logo {
