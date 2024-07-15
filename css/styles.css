@@ -207,7 +207,8 @@ body {
 
 .team-box {
     background-color: #F4F4FD; 
-    padding: 120px;
+    padding-top: 120px; 
+    padding-bottom: 120px;
 }
 
 .page-ourteam {
@@ -226,7 +227,7 @@ body {
 }
 
 .ourteam-item {
-    width: calc((100% - 72px) / 4); 
+    width: calc((100% - 3 * 24px) / 4); 
     border-radius: 0px 0px 4px 4px; 
     background-color: #FFFFFF;
 }
