@@ -308,6 +308,7 @@ feature-item:nth-child(4n){
     box-sizing: border-box;
     padding: 32px 16px;
     border: 1px solid #e7e9fc; 
+    margin-bottom: 8px;
    
 }
 
