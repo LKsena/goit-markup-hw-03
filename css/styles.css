@@ -281,6 +281,7 @@ feature-item:nth-child(4n){
 /*   Sectione 4 Portfolio   */
 
 .portfolio-box {
+    border-top: none;
     padding-top: 120px; 
     padding-bottom: 120px; 
     background-color:  #FFFFFF;
